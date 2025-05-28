@@ -38,6 +38,10 @@ def main():
 
         # update and draw
         updatable.update(dt)
+        
+        for asteroid in asteroids:
+            asteroid.check_collision(player)
+
         for drawing in drawable:
             drawing.draw(screen)
         pygame.display.flip()
