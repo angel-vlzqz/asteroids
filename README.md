@@ -11,7 +11,7 @@ A Python implementation of the classic Asteroids arcade game using Pygame.
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/angel-vlzqz/asteroids>
 cd asteroids
 ```
 
